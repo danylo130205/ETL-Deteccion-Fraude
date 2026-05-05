@@ -46,8 +46,8 @@ Raw Data → ETL → Features → Model → Predictions
 
 ---
 
-## 🚀 Cómo ejecutar-->
+## 🚀 Cómo ejecutar
 
 ```bash
 pip install -r requirements.txt
-python main.py
+python main.py -->
