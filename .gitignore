@@ -8,9 +8,9 @@ venv/
 .env
 
 # Datos
-data/raw/
-data/processed/
-data/predictions/
+Data/raw/
+Data/processed/
+Data/predictions/
 
 # Modelos
 *.pkl
