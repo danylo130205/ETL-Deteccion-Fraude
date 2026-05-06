@@ -15,6 +15,7 @@ data/processed/
 *.pkl
 
 # Logs
+logs/
 *.log
 
 # Jupyter
