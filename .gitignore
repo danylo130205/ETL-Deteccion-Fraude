@@ -28,3 +28,4 @@ Thumbs.db
 
 #config
 ETL/utils/logger.py
+ETL/utils/config.py
