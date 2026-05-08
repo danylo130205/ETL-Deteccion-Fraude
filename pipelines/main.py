@@ -5,6 +5,7 @@ import ETL.utils.config as config
 from ETL.Extraccion.extract import extract
 from ETL.Validacion.verify_columns import verify_columns
 from ETL.Transformacion.transform import transform
+from ETL.Carga.load import load
 lg = get_logger()
 def main():
     try:
@@ -18,7 +19,9 @@ def main():
         df = verify_columns(df)
         #Transformación de los datos
         df = transform(df)
-    
+        #Caga de datos
+        load(df)
+
         lg.info("PIPELINE finalizado exitosamente")
     except Exception as e:
         raise ValueError(f"Error en el PIPELINE {e}")
